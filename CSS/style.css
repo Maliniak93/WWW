@@ -19,7 +19,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: calc(100% -2em);
+  width: calc(100% - 2em);
   background: white;
 }
 
@@ -35,10 +35,10 @@ header a:visited {
 header a.logo {
   font-weight: bold;
   text-transform: uppercase;
-}
-
-header img {
-  width: 3rem;
+  background: url("../images/logo.jpg") no-repeat;
+  background-size: 4rem;
+  background-position: 0 1px;
+  padding: 1em 1em 1em 7em;
 }
 
 header nav ul {
@@ -50,6 +50,10 @@ header nav ul {
       justify-content: space-around;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 1em;
+}
+
+header nav ul a {
+  padding: 1em;
 }
 /*# sourceMappingURL=style.css.map */
