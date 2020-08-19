@@ -12,24 +12,23 @@ body {
 header {
   position: absolute;
   padding: 1em;
-  z-index: 20;
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: calc(100% - 2em);
-  background: white;
+  width: 100%;
+  background: #3d3737;
 }
 
 header a {
   text-decoration: none !important;
-  color: black;
 }
 
 header a:visited {
-  color: black;
+  color: whitesmoke;
 }
 
 header a.logo {
@@ -55,5 +54,20 @@ header nav ul {
 
 header nav ul a {
   padding: 1em;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.wrapper section {
+  padding: 3em;
+}
+
+.wrapper section.project {
+  padding: 6em 2em;
 }
 /*# sourceMappingURL=style.css.map */

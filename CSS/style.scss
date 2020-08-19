@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+$logo-color: #3d3737;
 body, html{
     margin: 0;
 }
@@ -10,17 +11,16 @@ body{
 header{
     position: absolute;
     padding: 1em;
-    z-index: 20;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
-    width: calc(100% - 2em);
-    background: white;
+    width: 100%;
+    background: $logo-color;
     a{
         text-decoration: none!important;
-        color: black;
     }
     a:visited{
-        color: black;
+        color: whitesmoke;
     }
     a.logo{
         font-weight: bold;
@@ -40,5 +40,15 @@ header{
         a{
             padding: 1em;
         }
+    }
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: auto;
+    section{
+        padding: 3em;
+    }
+    section.project{
+        padding: 6em 2em;
     }
 }
