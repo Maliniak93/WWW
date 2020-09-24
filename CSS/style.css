@@ -169,4 +169,11 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.formBx form h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
 /*# sourceMappingURL=style.css.map */
