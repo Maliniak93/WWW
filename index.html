@@ -17,22 +17,22 @@
 <body>
     <header>
         <a href="#" class="logo">Portfolio</a>
-        <div class="toggle"></div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">O mnie</a></li>
-            <li><a href="#">Projekty</a></li>
-            <li><a href="#">Kontakt</a></li>
+        <div class="navbar-toggler-icon"></div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="#contact">Kontakt</a></li>
         </ul>
     </header>
-    <section class="banner">
+    <section class="banner" id="home">
         <div class="textBx">
             <h2>Witaj, nazywam się<br><span>Dominik Malinowski</span></h2>
             <h3>Jestem programistą</h3>
-            <a href="#" class="btn btn-primary">O mnie</a>
+            <a href="#about" class="btn btn-primary">O mnie</a>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="heading">
             <h2>O mnie</h2>
         </div>
@@ -58,7 +58,7 @@
             </div>
         </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
         <div id="ProjectsCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
@@ -86,7 +86,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="heading text-white">
             <h2>Kontakt</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel in dolorum illo omnis natus
