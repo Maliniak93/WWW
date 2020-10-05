@@ -247,7 +247,7 @@ img {
   .menu{
     position: fixed;
     top: 76px;
-    left: 0;
+    left: -100%;
     display: block;
     padding: 100px 50px;
     text-align: center;
@@ -258,8 +258,13 @@ img {
     z-index: 999;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
   }
+  .menu.active{
+    left: 0;
+  }
   header ul li a{
     color: #111;
+    font-size: 24px;
+    margin: 10px;
   }
   .toggle{
     width: 40px;
@@ -270,5 +275,7 @@ img {
     background-size: 30px;
     cursor: pointer;
   }
-  .toggle
+  header.sticky .toggle{
+    filter: invert(1);
+  }
 }
