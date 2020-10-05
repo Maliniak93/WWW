@@ -302,4 +302,7 @@ img {
     font-weight: 600;
     font-size: 24px;
   }
+  .formBx form input, .formBx form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
 }
